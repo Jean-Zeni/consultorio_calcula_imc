@@ -23,8 +23,10 @@
         <input type="number" name="altura" id="altura" step="0.01"><br>
         
         <br><label for="sexo">Sexo:</label>
-        <br><input type="radio" name="sexo" id="sexo"> <label for="sexo">Masculino</label>
-        <input type="radio" name="sexo" id="sexo"> <label for="sexo">Feminino</label><br>
+        <br><input type="radio" name="sexo" value="masculino" id="sexo">
+        <label for="sexo">Masculino</label>
+        <input type="radio" name="sexo" value="feminino" id="sexo"> 
+        <label for="sexo">Feminino</label><br>
 
         <br><input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
